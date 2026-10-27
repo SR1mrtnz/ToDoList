@@ -1,0 +1,15 @@
+{
+  "name": "todo-vanilla",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "To-Do List in Vanilla JavaScript — Settimane 5 e 6, TPSIT classe quinta",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^8.3.5"
+  }
+}

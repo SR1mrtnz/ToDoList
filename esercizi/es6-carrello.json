@@ -1,0 +1,8 @@
+{
+  "articoli": [
+    { "id": 101, "nome": "Cuffie BT", "prezzo": 39.90, "quantita": 2 },
+    { "id": 204, "nome": "Mouse", "prezzo": 15.50, "quantita": 1 }
+  ],
+  "codiceSconto": "SCUOLA10",
+  "spedizione": 4.90
+}

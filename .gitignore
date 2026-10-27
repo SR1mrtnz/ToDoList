@@ -1,0 +1,22 @@
+# Dipendenze: si ricostruiscono con `npm install` leggendo package.json.
+# NON si caricano su GitHub: sono centinaia di MB di file che non hai
+# scritto tu. È ciò che dice anche il tutorial della settimana 4.
+node_modules/
+
+# Cartella di produzione generata da `npm run build`
+dist/
+
+# File locali e di log
+*.local
+logs
+*.log
+npm-debug.log*
+
+# File di sistema ed editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.sw?

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>I miei task</title>
+</head>
+<body>
+
+  <main>
+    <h1>I miei task</h1>
+
+    <!-- ES 7 · esercizio 9.11: qui renderBenvenuto() disegna
+         il saluto "Bentornato, ..." oppure il form per il nome -->
+    <div id="benvenuto"></div>
+
+    <form id="form-task">
+      <input
+        type="text"
+        id="campo-task"
+        placeholder="Scrivi qui un task..."
+        autocomplete="off">
+      <button type="submit">Aggiungi</button>
+    </form>
+
+    <!-- La lista è vuota: il contenuto lo genera render(),
+         non si scrive nessun task a mano nell'HTML -->
+    <ul id="lista"></ul>
+
+    <p id="info"></p>
+
+    <!-- ES 8 · esercizio 9.12: frase reattiva sotto la lista -->
+    <p id="messaggio"></p>
+
+    <!-- ES 9: contenitore del pulsante "Elimina completati".
+         Il pulsante lo disegna render(), solo quando serve -->
+    <div id="azioni"></div>
+  </main>
+
+  <!-- type="module" è obbligatorio: senza, il browser non accetta
+       import/export. Con Vite il CSS si importa da main.js -->
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
